@@ -1,0 +1,3 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bài 2 - Component sản phẩm</title><link rel="stylesheet" href="bai2.css"><script src="https://unpkg.com/vue@3/dist/vue.global.js"></script></head>
+<body><main id="app" class="container"><section class="panel"><p class="eyebrow">Bài thực hành Vue 3</p><h1>Danh mục sản phẩm</h1><p class="sub">Mỗi thẻ là một component độc lập nhận dữ liệu bằng props.</p><div class="products"><the-san-pham v-for="product in products" :key="product.id" v-bind="product"></the-san-pham></div></section></main><script src="bai2.js"></script></body></html>
